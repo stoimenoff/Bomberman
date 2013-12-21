@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Bomberman</title>
+	<link rel="stylesheet" type="text/css" href="styles/styles.css">
+	<script type="text/javascript" src="Script/jquery-1.10.2.min.js"></script>
+</head>
+<body>
+	<!-- HEADER -->
+	<div id="header-box">
+		<div id="header-title">
+			<a href="index.html">
+				<span id="site-title">Bomberman</span>
+				<span id="site-subtitle">Telerik's style!</span>
+			</a>
+		</div>
+		<div id="head-ninja"><img src="images/head-ninja.png" alt=""></div>
+		<div id="head-menu">
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="game.html">Play!</a></li>
+			</ul>
+		</div>
+		<div class="clear"></div>
+	</div>
+
+	<!-- CONTENT -->
+	<div id="wrapper">
+		<div id="left-coll">
+			<div class="box-title">Hint</div>
+			<div id="start-game">
+				When you are ready just press Play
+			</div>
+			<canvas id="canvas-box" width="840" height="600"></canvas>
+		</div>
+		<div id="right-coll">
+			<div id="game-menu">
+				<div class="box-title">Menu</div>
+				<button id="play">Play</button>
+				<button id="pause">Pause</button>
+				<div id="timer"></div>
+			</div>
+			<div class="box-title">Hint</div>
+			<span style="display: block; margin-bottom: 10px;">Use arrow keys to move the ninja and space to place a dynamite. You have to kill the red-brown ninja as fast as you can !!! You have 10 minutes !!!</span>
+			<div class="box-title">Buffs</div>
+			<div class="buff-box">
+				<div class="buff-img"><img src="Images/buff1.png" alt="buff"/></div>
+				<div class="buff-discription">+1 Dynamite</div>
+				<div class="clear"></div>
+			</div>
+			<div class="buff-box">
+				<div class="buff-img"><img src="Images/buff2.png" alt="buff"/></div>
+				<div class="buff-discription">+1 Life</div>
+				<div class="clear"></div>
+			</div>
+			<div class="buff-box">
+				<div class="buff-img"><img src="Images/buff3.png" alt="buff"/></div>
+				<div class="buff-discription">+1 destroy area</div>
+				<div class="clear"></div>
+			</div>
+		</div>
+		<div class="clear"></div>
+	</div>
+
+	<!-- FOOTER -->
+	<div id="footer-box">
+		Created by Team Toad
+	</div>
+	<script type="text/javascript" src="Script/script.js"></script>
+</body>
+</html>

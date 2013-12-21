@@ -1,0 +1,159 @@
+@font-face {
+	font-family: "Bombing";
+	src: url(fonts/Bombing.ttf)
+}
+html, body {
+	margin: 0;
+	padding: 0;
+	background-color: #000;
+	background-image: url("../images/tree_bark.png");
+	font-family: Verdana, Arial, sans-serif;
+	font-size: 10px;
+}
+a {
+	text-decoration: none;
+}
+canvas {
+	border: 1px solid #ccc;
+	display: block;
+	margin: 20px auto;
+}
+.clear {
+	clear: both;
+}
+
+/* HEADER */
+#header-box {
+	width: 100%;
+	height: 40px;
+	background-color: #bcda00;
+	box-shadow: 0 0 25px #000;
+}
+#header-title {
+	padding-top: 5px;
+	padding-left: 5px;
+	width: 100px;
+	float: left;
+}
+#header-title a{
+	color: #000;
+}
+#head-ninja, #head-ninja img {
+	float: right;
+	margin-right: 5px;
+	height: 40px;
+}
+#site-title {
+	display: block;
+	font-size: 25px;
+	font-family: "Bombing";
+	height: 25px;
+}
+#site-subtitle {
+	display: block;
+	height: 10px;
+	margin-top: -5px;
+	font-size: 10px;
+}
+#head-menu {
+	float: right;
+	height: 40px;
+}
+#head-menu ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+#head-menu ul li {
+	display: inline-block;
+}
+#head-menu ul li a {
+	color: #000;
+	font-size: 14px;
+	line-height: 40px;
+	margin-right: 10px;
+}
+
+/* CONTENT */
+#wrapper {
+	color: #DDD;
+	background-color: rgba(255,255,255,0.4);
+	font-size: 14px;
+	width: 1000px;
+	margin: 30px auto;
+	border-radius: 2px;
+}
+#left-coll {
+	width: 700px;
+	float: left;
+	position: relative;
+}
+#right-coll {
+	float: left;
+	width: 295px;
+	margin-left: 5px;
+	padding-bottom: 20px;
+}
+.box-title {
+	text-align: left;
+	width: calc(100% - 5px);
+	padding-left: 5px;
+	height: 20px;
+	color: #FFF;
+	background-color: rgba(0,0,0,0.4);
+}
+#game-trailer {
+	width: 480px;
+	height: 360px;
+	background-color: #000;
+	margin: 30px auto;
+}
+
+/* GAME */
+#start-game {
+	width: 150px;
+	height: 50px;
+	background-color: rgba(0,0,0,0.4);
+	margin-top: 120px;
+	margin-left: 300px;
+	padding: 5px;
+}
+#play, #pause{
+	width : 120px;
+	height : 50px;
+	font-size: 30px;
+}
+#timer{
+	color:white;
+	font-size:20px;
+}
+.buff-box {
+	width: 155px;
+	height: 40px;
+	margin-top: 3px;
+	margin-bottom: 3px;
+	font-size: 12px;
+}
+.buff-img, .buff-img img{
+	width: 40px;
+	height: 40px;
+	float: left;
+}
+.buff-discription {
+	width: 110px;
+	float: left;
+	margin-left: 5px;
+	font-size: 12px;
+	line-height: 40px;
+}
+/* FOOTER */
+#footer-box {
+	width: 100%;
+	height: 30px;
+	line-height: 30px;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	background-color: rgb(130, 181, 23);
+	text-align: center;
+}
